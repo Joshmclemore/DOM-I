@@ -60,7 +60,7 @@ middleImg.src = siteContent.images['accent-img']
 // Footer
 const footerLink = document.querySelector('footer a');
 footerLink.textContent = siteContent.footer.copyright;
-footerLink.classList.add = 'Bold';
+footerLink.classList.add('bold');
 
 // Contact
 const contact = document.querySelector('section.contact');
